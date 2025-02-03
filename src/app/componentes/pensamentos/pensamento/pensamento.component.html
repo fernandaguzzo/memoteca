@@ -4,9 +4,9 @@
   <p class="conteudo"><b>{{pensamento.autoria}}</b></p>
   <div class="acoes">
     <button class="bota-editar">
-      <img src="/assets/imagens/icone-editar.png" alt="'Ícone de editar">
+      <img src="/assets/imagens/icone-editar.png"  routerLink="/pensamentos/EditarPensamento/{{pensamento.id}}"alt="'Ícone de editar">
     </button>
-    <button class="bota-excluir">
+    <button class="bota-excluir" routerLink="/pensamentos/excluirPensamento/{{pensamento.id}}">
       <img src="/assets/imagens/icone-excluir.png" alt="'Ícone de excluir">
     </button>
   </div>

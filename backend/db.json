@@ -1,0 +1,24 @@
+{
+  "pensamentos": [
+    {
+      "id": 1,
+      "conteudo": "Que bom que vc veio",
+      "autoria": "Exemplo",
+      "modelo": "modelo1"
+    },
+    {
+      "id": 2,
+      "conteudo": "Estudando Angular",
+      "autoria": "Exemplo 2",
+      "modelo": "modelo2"
+    },
+    {
+      "id": 3,
+      "conteudo": "exemplo",
+      "autoria": "Exemplo 3",
+      "modelo": "modelo2"
+    }
+
+
+  ]
+}
