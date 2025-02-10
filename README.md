@@ -1,31 +1,17 @@
-<<<<<<< HEAD
-# Memoteca
+Memoteca
+Descrição
+A Memoteca é uma aplicação desenvolvida em Angular que permite aos usuários adicionar, listar e gerenciar seus pensamentos. Além disso, por meio da interface, os usuários podem criar novos pensamentos e visualizar todos os pensamentos que já foram adicionados.
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.0.0.
+Tecnologias Utilizadas
 
-## Development server
+Angular 14
+TypeScript
+HTML/CSS
+Bootstrap 
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+Funcionalidades
 
-## Code scaffolding
-
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
-
-## Build
-
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
-=======
-# memoteca
->>>>>>> c5da68b451edae6f90d3883e87c9d75dd1378e6d
+Adicionar novos pensamentos
+Listar todos os pensamentos
+Navegação entre as páginas de forma intuitiva
+Cancelar a adição de um pensamento e retornar à lista
