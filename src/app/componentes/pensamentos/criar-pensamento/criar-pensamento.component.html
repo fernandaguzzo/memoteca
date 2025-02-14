@@ -20,6 +20,10 @@
       id="autoria"
       formControlName="autoria"
       placeholder="Digite a autoria ou fonte">
+      <div class="mensagem__erro"
+      *ngIf="formulario.get('autoria')?.errors?.['minusculo'] && formulario.get('autoria')?.touched">
+        Esse campo aceita apenas letras minúsculas
+      </div>
 
       <div class="mensagem__erro" *ngIf="formulario.get('autoria')?.errors?.['required'] && formulario.get('autoria')?.touched">
         Autoria é obrigatória!
