@@ -12,12 +12,13 @@ import { PensamentoService } from '../pensamento.service';
 export class ListarPensamentoComponent implements OnInit {
 
   listaPensamentos: Pensamento[] = [];
+  paginaAtual = 1
 
   constructor(private service: PensamentoService) { }
 
   ngOnInit(): void {
     /* com o subscribe, o observable vai entender que é necessário emitir notificações toda vez que houver uma mudança */
-    this.service.listar().subscribe((listaPensamentos) => {
+    this.service.listar(this.paginaAtual).subscribe((listaPensamentos) => {
       this.listaPensamentos = listaPensamentos
     })
   }
