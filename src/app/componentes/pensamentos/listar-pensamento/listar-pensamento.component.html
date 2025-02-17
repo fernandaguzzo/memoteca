@@ -9,6 +9,11 @@
     </div>
  </div>
 </section>
+<app-botao-carregar-mais
+[haMaisPensamentos]="haMaisPensamentos"
+(click)="carregarMaisPensamentos()">
+
+</app-botao-carregar-mais>
 <ng-template #semPensamentos>  <!-- Esse componente não é renderizado por padrão, ou seja, precisa instruir o angular direto ou indiretamente para que esse conteúdo apareça -->
   <div class="ff-inter sem-pensamentos">
     <p>Ainda não há pensamentos cadastrados!</p>
