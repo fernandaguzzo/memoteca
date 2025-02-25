@@ -17,7 +17,8 @@ export class ListarPensamentoComponent implements OnInit {
   haMaisPensamentos: boolean = true;
   filtro: string = ''
   favoritos: boolean = false;
-  listaFavoritos: Pensamento[] =[]
+  listaFavoritos: Pensamento[] = []
+  titulo: string  = 'Meu Mural'
 
   constructor(
     private service: PensamentoService,
@@ -49,7 +50,7 @@ export class ListarPensamentoComponent implements OnInit {
   }
 
   recarregarComponente(){
-    
+
     this.favoritos = false;
     this.paginaAtual = 1;
     this.router.routeReuseStrategy.shouldReuseRoute = () => false
@@ -59,6 +60,7 @@ export class ListarPensamentoComponent implements OnInit {
   }
 
   listarFavoritos() {
+    this.titulo = 'Meus favoritos'
     this.favoritos = true
     this.haMaisPensamentos = true
     this.paginaAtual = 1
